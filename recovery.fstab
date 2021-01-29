@@ -1,5 +1,5 @@
 # mount point       fstype    device                                                                flags
-/system             ext4      /dev/block/platform/bootdevice/by-name/system                         flags=display="System";flashimg=0;wipeingui;backup=1
+/system_root        ext4      /dev/block/platform/bootdevice/by-name/system                         flags=display="System";flashimg=0;wipeingui;backup=1
 /vendor_image       emmc      /dev/block/platform/bootdevice/by-name/vendor                         flags=backup=1;flashimg=1
 /system_image       emmc      /dev/block/platform/bootdevice/by-name/system                         flags=backup=1;flashimg=1
 /vendor             ext4      /dev/block/platform/bootdevice/by-name/vendor                         flags=display="Vendor";backup=1;flashimg=0;wipeingui

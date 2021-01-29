@@ -1,3 +1,6 @@
+on init
+    export ANDROID_ROOT /system_root
+
 on post-fs
     # Support A/B feature for emmc boot region
     symlink /dev/block/sda /dev/block/mmcblk0boot0
