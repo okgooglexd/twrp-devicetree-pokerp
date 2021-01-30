@@ -64,9 +64,6 @@ TARGET_KERNEL_CONFIG := pokerp_defconfig
 # Platform
 TARGET_BOARD_PLATFORM := mt6765
 
-# System as root
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
-
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
